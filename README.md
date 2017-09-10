@@ -1,18 +1,28 @@
-# ECCentric
+# ECC-ELGAMAL
 
-ECC-ElGamal implementation in python, with front end in pyqt
+The code was done as a part of the digital assignment 1 for the course **Cyber Security (CSE 4003)** taken by
+Professor: **Ganesan R** at VIT University Chennai!
 
-![Properties](/screenshot.png)
+We did this digital assignment in a group of 2. The contributors are:
 
-Most of the code taken from the <a href="https://gist.github.com/bellbind/1414867">excellent gist by bellbind</a>
++ Hargur Partap Singh Bedi: 15BCE1257
++ Kumar Shubham: 15BCE1283
 
-Uses python 2.7 and pyqt 4.
+The project is made using Python 2.7. The GUI has been implemented using the PyQt framework which allows us to have cross platform GUI compatibility.
 
-Tested on Windows 8.1 and Ubuntu
-```
-python gui.py 
-```
+The project has been broken down into several modules in order to organize the file structure. Here is a brief list of what every file does:
 
-TODO:
-Appropriate error messages for incorrect values of a, b, and keys. 
-(Hint: Try a=23, b=34, q=277 and private key=35 for flawless working)
++ **basicfunc.py** : The file basically contains implementations of inverse and square root functions.
+
++ **elgamal.py**: The file has functions for generating the points and encrypting and decrypting the plain text and ciphertext respectively.
+
++ **elliptic.py**: This file contains abstractions for basic functioning of the project.
+
++ **encdec.py**: As the name suggests the file has three main functions:
+	+  ``public_key()``
+	+  ``encryptiong(public_key, message)``
+	+  ``decrytpion(private_key, ciphertext)``
+
++ **gui.py**: The file contains the code for making the window and other GUI functionalties using the Qt framework for Python!.
+
+**Note:** *The screenshots are put in the screenshot folder.*
