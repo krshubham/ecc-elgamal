@@ -25,4 +25,6 @@ The project has been broken down into several modules in order to organize the f
 
 + **gui.py**: The file contains the code for making the window and other GUI functionalties using the Qt framework for Python!.
 
++ **elgamal\_ellip\_curve.cpp**: This file generates the points that lie on that elliptical curve
+
 **Note:** *The screenshots are put in the screenshot folder.*
