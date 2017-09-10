@@ -19,7 +19,3 @@ def sqrt(n, q):
 
 
 Coord = collections.namedtuple("Coord", ["x", "y"])
-
-
-
-

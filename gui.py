@@ -48,7 +48,7 @@ class MainWindow(QtGui.QWidget):
 
         #Window propoerties
         self.setGeometry(0,0,500,550)
-        self.setWindowTitle("15BCE1283 and 15BCE1257")
+        self.setWindowTitle("Elliptic Curve Cryptography ElGamal -> 15BCE1283 and 15BCE1257")
         self.resize(500,550)
         self.setMinimumSize(500,550)
         center(self)
